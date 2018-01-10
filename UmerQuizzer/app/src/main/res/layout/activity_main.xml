@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="umer.umerquizzer.MainActivity">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/TloginButton"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="Instructor_Login"
+        android:text="Login Instructor"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/q"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/SloginButton"
+        android:layout_width="101dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="Student_Login"
+        android:text="Login Student"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+</android.support.constraint.ConstraintLayout>

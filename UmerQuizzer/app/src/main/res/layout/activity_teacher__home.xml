@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="umer.umerquizzer.Teacher_Home">
+
+    <Button
+        android:id="@+id/cQuiz"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="createQuiz"
+        android:text="Create Quiz"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/vQuiz"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="View Quiz"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="61dp"
+        android:layout_height="74dp"
+        android:src="@drawable/user"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="216dp"
+        android:layout_height="51dp"
+        android:text="Instructor"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+</android.support.constraint.ConstraintLayout>
